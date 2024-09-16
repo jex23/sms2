@@ -1,0 +1,14 @@
+/* Login.css */
+.card {
+    border-radius: 10px;
+  }
+  
+  .btn-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  

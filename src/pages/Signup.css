@@ -1,0 +1,20 @@
+/* Signup.css */
+.card {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .btn-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  .alert {
+    font-size: 0.9rem;
+  }
+  

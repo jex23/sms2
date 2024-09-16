@@ -1,0 +1,55 @@
+/* Collage styles */
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  
+  .collage-image {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure images don't stretch */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .collage-image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Modal navigation buttons */
+  .modal-prev,
+  .modal-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .modal-prev {
+    left: 10px;
+  }
+  
+  .modal-next {
+    right: 10px;
+  }
+  
+  .modal-prev:hover,
+  .modal-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Modal image style */
+  .modal-image {
+    width: 80%; /* Set fixed size for full view */
+    max-height: 500px; /* Restrict maximum height */
+    object-fit: contain; /* Prevent distortion */
+    margin: 0 auto; /* Center image */
+    display: block;
+  }
+  

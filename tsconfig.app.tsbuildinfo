@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/firebaseconfig.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/sidemenu.tsx","./src/pages/home.tsx","./src/pages/incidentdetail.tsx","./src/pages/login.tsx","./src/pages/makereport.tsx","./src/pages/page1.tsx","./src/pages/page2.tsx","./src/pages/page3.tsx","./src/pages/page4.tsx","./src/pages/signup.tsx"],"version":"5.6.2"}
